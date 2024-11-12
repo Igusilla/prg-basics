@@ -16,6 +16,7 @@ def ft_inches_to_cm(ft, inches):
 
 if __name__ == "__main__":
     # only execute when you run this module
+    # so you can test the functions in this place
     print(f'2m = {m_to_cm(2)}cm')
     print(f'532cm = {cm_to_m(532)}m')
     print(f'198cm is {cm_to_inch(198)}in')
