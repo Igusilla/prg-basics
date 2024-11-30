@@ -29,3 +29,18 @@ while not cards.empty():
 Note the order of the printed elements.
 The last added element is printed first.
 """
+cards.put(2)
+cards.put(3)
+cards.put(7)
+cards.put(4)
+cards.put(1)
+cards.put(9)
+cards.put(8)
+
+suma=cards.get()+cards.get()
+print(suma)
+suma_reszty=0
+while not cards.empty():
+    suma_reszty+=cards.get()
+
+print(suma_reszty)
